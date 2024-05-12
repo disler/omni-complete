@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "ptest": "promptfoo eval -c ./prompt_tests/omnicomplete/promptfooconfig.yaml -t ./prompt_tests/omnicomplete/test.yaml -p ./prompt_tests/omnicomplete/prompt.txt --no-cache",

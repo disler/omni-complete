@@ -19,5 +19,54 @@
             "tailwind css"
         ],
         "hits": 1
+    },
+    {
+        "input": "how can i ",
+        "completions": [
+            "integrate UnoCSS with Vue.js"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "whats the difference",
+        "completions": [
+            "between UnoCSS and Tailwind CSS"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "How can I use",
+        "completions": [
+            "UnoCSS with Vue.js"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "how to ",
+        "completions": [
+            "integrate UnoCSS with Vue.js"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "is unocss the",
+        "completions": [
+            "same as Windi CSS"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "Whats wrong with using tail",
+        "completions": [
+            "wind css"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "Can i reuse styles",
+        "completions": [
+            "from Windi CSS in UnoCSS"
+        ],
+        "hits": 1
     }
 ]

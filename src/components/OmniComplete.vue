@@ -99,6 +99,9 @@ const keyPressedDebounce = useDebounceFn(function (_event: KeyboardEvent) {
 function keyPressed(event: KeyboardEvent) {
   emit("clear-completions");
   keyPressedDebounce(event);
+  if (inputValue.value === "") {
+    didAutocomplete.value = false;
+  }
 }
 
 function focusInput() {
