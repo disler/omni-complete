@@ -1,0 +1,29 @@
+description: "OmniComplete"
+providers: 
+  - id: openai:chat:llama3-70b-8192
+    config:
+      temperature: 0.3
+      apiBaseUrl: https://api.groq.com/openai/v1
+      apiKeyEnvar: GROQ_API_KEY
+      response_format: 
+        type: json_object
+  - id: openai:chat:llama3-8b-8192
+    config:
+      temperature: 0.3
+      apiBaseUrl: https://api.groq.com/openai/v1
+      apiKeyEnvar: GROQ_API_KEY
+      response_format: 
+        type: json_object
+
+defaultTest:
+  assert:
+    - type: is-json
+      value: 
+        required: [completions]
+        type: object
+        properties:
+          rank:
+            type: array
+
+prompts: prompt.txt
+tests: test*.yaml

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+  color: white;
+}
+
+:root {
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: #0b0b0b;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 2.2em;
+}
+

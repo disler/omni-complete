@@ -1,0 +1,23 @@
+[
+    {
+        "input": "do i use the same ",
+        "completions": [
+            "presets for UnoCSS as I do for Windi CSS"
+        ],
+        "hits": 2
+    },
+    {
+        "input": "how to integrate",
+        "completions": [
+            "UnoCSS with Vue.js"
+        ],
+        "hits": 1
+    },
+    {
+        "input": "how does unocss compare to ",
+        "completions": [
+            "tailwind css"
+        ],
+        "hits": 1
+    }
+]

@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"input":"how does unocss "}' http://127.0.0.1:5000/get-autocomplete

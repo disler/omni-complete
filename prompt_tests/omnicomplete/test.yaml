@@ -1,0 +1,35 @@
+- description: "Omnicomplete #1"
+  vars:
+    topic: Vue.js
+    input_value: create a new vuejs component with
+    previous_completions: file://knowledge_bases/vuejs/previous_completions.json
+    domain_knowledge: file://knowledge_bases/vuejs/domain_knowledge.txt
+- description: "Omnicomplete #2 (hit count)"
+  vars:
+    topic: Vue.js
+    input_value: style this button with
+    previous_completions: file://knowledge_bases/vuejs/previous_completions.json
+    domain_knowledge: file://knowledge_bases/vuejs/domain_knowledge.txt
+  assert:
+    - type: icontains-any
+      value: ["tailwindcss", "unocss", "dark colors", "light colors"]
+- description: "Omnicomplete #3 (domain knowledge)"
+  vars:
+    topic: Vue.js & Unocss
+    input_value: whats atomic
+    previous_completions: file://knowledge_bases/vuejs/previous_completions.json
+    domain_knowledge: file://knowledge_bases/vuejs/domain_knowledge.txt
+  assert:
+    - type: icontains
+      value: "css"
+- description: "Omnicomplete #4 (domain knowledge)"
+  vars:
+    topic: Vue.js & Unocss
+    input_value: whats atomic
+    previous_completions: file://knowledge_bases/vuejs/previous_completions.json
+    domain_knowledge: file://knowledge_bases/vuejs/domain_knowledge.txt
+  assert:
+    - type: icontains
+      value: "css"
+
+# ----
