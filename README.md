@@ -1,9 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# LLM Autocomplete 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Setup
 
-## Recommended Setup
+### Frontend (Vue.js)
+- `yarn`
+- `yarn dev --host`
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+### Backend (Python Flask)
+- `cd server`
+- `cp .env.sample .env`
+- Fill in `.env`
+- `python -m venv venv`
+- `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows)
+- `pip install -r requirements.txt`
+- `python main.py`
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+### Prompt Testing (Promptfoo + Llama 3 + Groq)
+- `yarn`
+- `yarn ptest`
+- `yarn view`
+
+## Resources
+
+- [LLM Autocomplete](https://www.youtube.com/watch?v=J_7wO_J1yxk&t=1s&ab_channel=PromptEngineering)
+- [LLM Autocomplete](https://www.youtube.com/watch?v=J_7wO_J1yxk&t=1s&ab_channel=PromptEngineering)
